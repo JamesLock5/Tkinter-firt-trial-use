@@ -19,13 +19,15 @@ label1.grid(row = 0, column = 0, columnspan = 3, sticky = 'ewsn', padx = 5, pady
 left_frame = tk.Frame(root, relief = 'solid', borderwidth = 5)
 left_frame.grid(row = 1, column = 0, sticky = 'nsew',  padx = 5, pady = 5)
 left_frame.rowconfigure(0, weight = 1)
+left_frame.rowconfigure(1, weight = 1)
+left_frame.rowconfigure(2, weight = 1)
 left_frame.grid_propagate(False)
 
-for i in range(3):
-    left_frame.rowconfiure
+
 right_frame = tk.Frame(root, relief = 'solid', borderwidth = 5)
 right_frame.grid(row = 1, column = 1, sticky = 'nsew', padx = 5, pady = 5)
 right_frame.rowconfigure(0, weight = 1)
+right_frame.rowconfigure(1, weight = 1)
 right_frame.grid_propagate(False)
 
 entry1 = tk.Entry(left_frame)
