@@ -31,19 +31,19 @@ right_frame.rowconfigure(1, weight = 1)
 right_frame.grid_propagate(False)
 
 entry1 = tk.Entry(left_frame)
-entry1.grid(row = 0, column = 0)
+entry1.grid(row = 0, column = 0, padx = 50, pady =5)
 
 entry2 = tk.Entry(left_frame)
-entry2.grid(row = 1, column = 0)
+entry2.grid(row = 1, column = 0, padx = 50, pady =5)
 
 entry3 = tk.Entry(left_frame)
-entry3.grid(row = 2, column = 0)
+entry3.grid(row = 2, column = 0, padx = 50, pady =5)
 
 entry4 = tk.Entry(right_frame)
-entry4.grid(row = 0, column = 0)
+entry4.grid(row = 0, column = 0, padx = 50, pady =5)
 
 entry5 = tk.Entry(right_frame)
-entry5.grid(row = 1, column = 0)
+entry5.grid(row = 1, column = 0, padx = 50, pady =5)
 
 
 
